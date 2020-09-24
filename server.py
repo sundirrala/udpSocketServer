@@ -12,7 +12,7 @@ connected = 0
 clients = {}
 
 def connectionLoop(sock):
-   while True:fsafasfas
+   while True:dsafas
       data, addr = sock.recvfrom(1024)
       data = str(data)
       if addr in clients:
